@@ -5,7 +5,7 @@ export const Products = () => {
     const [prod, setProd] = useState([]);
 
     useEffect(() => {
-        fetch("https://fakestoreapi.com/products/category/jewelery")
+        fetch("https://fakestoreapi.com/products")
             .then(d => d.json())
             .then((res) => {
                 console.log(res)
