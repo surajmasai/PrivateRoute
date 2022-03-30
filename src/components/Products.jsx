@@ -12,7 +12,7 @@ export const Products = () => {
                 setProd(res)
             })
     }, [])
-    // console.log(prod)
+    console.log(prod)
 
     return (
         // <p>hello world</p>
